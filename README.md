@@ -1,4 +1,4 @@
-# Public Transport Shortest Path Finder
+# DELHI METRO Shortest Path Finder
 
 This repository contains Python code for a public transport shortest path finder using Dijkstra's algorithm. Given a network of stations and their connections, this program calculates the shortest path and distance between two selected stations using weighted edges that represent the travel time between stations.
 
@@ -9,7 +9,6 @@ This repository contains Python code for a public transport shortest path finder
 - [Installation](#installation)
 - [Example](#example)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 This code provides a `Graph` class that represents a network of stations and connections in a public transport system. It uses Dijkstra's algorithm to find the shortest path and distance between two selected stations. Additionally, it employs the Levenshtein distance algorithm to handle slight discrepancies in station name input.
@@ -60,9 +59,5 @@ print("Shortest path:", " -> ".join(path))
 ## Contributing
 Contributions are welcome! Please create a pull request for any enhancements or fixes.
 
-## License
-This project is licensed under the [MIT License](LICENSE).
-
----
 
 *Note: This README provides an overview of the code functionality and usage. For detailed implementation, please refer to the source code in `shortest_path_finder.py`.*
