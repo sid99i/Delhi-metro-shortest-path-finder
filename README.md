@@ -7,7 +7,6 @@ This repository contains Python code for a public transport shortest path finder
 - [Features](#features)
 - [Usage](#usage)
 - [Installation](#installation)
-- [Example](#example)
 - [Contributing](#contributing)
 
 ## Introduction
@@ -36,25 +35,6 @@ This code provides a `Graph` class that represents a network of stations and con
    ```sh
    python shortest_path_finder.py
    ```
-
-## Example
-```python
-# Input: Enter the first station
-start_vertex = input("Enter the first station: ")
-
-# Correct any minor input discrepancies using Levenshtein distance
-start_vertex = find_most_similar_string(start_vertex, vertex_names)
-
-# Input: Enter the last station
-end_vertex = input("Enter the last station: ")
-
-# Correct any minor input discrepancies using Levenshtein distance
-end_vertex = find_most_similar_string(end_vertex, vertex_names)
-
-# Find and print the shortest path
-path = g.shortest_path(start_vertex, end_vertex)
-print("Shortest path:", " -> ".join(path))
-```
 
 ## Contributing
 Contributions are welcome! Please create a pull request for any enhancements or fixes.
